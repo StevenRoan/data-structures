@@ -1,0 +1,10 @@
+RM=rm
+NAME=000listMake
+all: 000list
+000list: ./lib/list-element.o
+	g++ -Wall -g -o $(NAME)-res.out ./000list.cpp ./lib/list-element.o
+./lib/list-element.o: ./src/list-element.h ./src/list-element.cpp
+	g++ -Wall -g -c ./src/list-element.cpp -o ./lib/list-element.o
+clean:
+	$(RM) -rf ./lib/*.o ./*.o ./*.out *.dSYM
+

@@ -1,0 +1,23 @@
+{
+  "name": "data-structure",
+  "version": "0.0.0",
+  "description": "Note and code of different programming languages. The famous framework related content also might be included as well.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StevenRoan/data-structure.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StevenRoan/data-structure/issues"
+  },
+  "homepage": "https://github.com/StevenRoan/data-structure",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
